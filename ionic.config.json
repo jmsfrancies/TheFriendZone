@@ -1,0 +1,8 @@
+{
+  "name": "TheFriendZone",
+  "app_id": "8217ee72",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
