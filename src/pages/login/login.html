@@ -7,7 +7,7 @@
 </ion-header>
 
 <ion-content>
-  <ion-icon name="person"></ion-icon>
+
   <h4>Welcome Back!</h4>
   <ion-list>
 
@@ -21,9 +21,11 @@
       <ion-input type="password" #password></ion-input>
     </ion-item>
 
-  </ion-list>
 
+  </ion-list>
   <div padding>
-    <button block ion-button(click)="login()">Login</button>
+    <button block ion-button (click)="login()" item-left>Login</button>
   </div>
+  <button block ion-button clear (click)="join()" item-left>Not a Zoner? Sign Up</button>
+
 </ion-content>

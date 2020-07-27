@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import { LoginPage } from '../login/login';
 /**
  * Generated class for the JoinPage page.
  *
@@ -20,6 +20,13 @@ export class JoinPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad JoinPage');
+  }
+
+
+
+  login() {
+    this.navCtrl.push(LoginPage);
+
   }
 
 }
