@@ -4,6 +4,7 @@ import { LoginPage } from '../login/login';
 import { JoinPage } from '../join/join';
 
 
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -25,6 +26,7 @@ export class HomePage {
   join() {
     this.navCtrl.push(JoinPage);
   }
+
 
 }
 

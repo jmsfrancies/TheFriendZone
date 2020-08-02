@@ -8,3 +8,11 @@ page-home{
         flex: 1;
     }
 }
+
+ion-page.home{
+    background-image: url('../../img/letsstart.jpg');
+}
+
+ion-page.home > ion-content{
+  background-color: transparent;
+}

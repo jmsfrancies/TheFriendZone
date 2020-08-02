@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { LoginPage } from '../login/login';
-import { ProfilePage } from '../profile/profile';
+
 /**
- * Generated class for the JoinPage page.
+ * Generated class for the ProfilePage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,26 +10,16 @@ import { ProfilePage } from '../profile/profile';
 
 @IonicPage()
 @Component({
-  selector: 'page-join',
-  templateUrl: 'join.html',
+  selector: 'page-profile',
+  templateUrl: 'profile.html',
 })
-export class JoinPage {
+export class ProfilePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad JoinPage');
-  }
-
-  login() {
-    this.navCtrl.push(LoginPage);
-
-  }
-
-  profile() {
-    this.navCtrl.push(ProfilePage);
-
+    console.log('ionViewDidLoad ProfilePage');
   }
 
 }

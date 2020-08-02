@@ -8,13 +8,17 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { LoginPage } from '../pages/login/login';
 import { JoinPage } from '../pages/join/join';
+import { UserPage } from '../pages/user/user';
+import { ProfilePage } from '../pages/profile/profile';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     LoginPage,
-    JoinPage
+    JoinPage,
+    UserPage,
+    ProfilePage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +29,9 @@ import { JoinPage } from '../pages/join/join';
     MyApp,
     HomePage,
     LoginPage,
-    JoinPage
+    JoinPage,
+    UserPage,
+    ProfilePage
   ],
   providers: [
     StatusBar,
